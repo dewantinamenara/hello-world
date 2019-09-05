@@ -1,0 +1,49 @@
+-- this is an example
+
+group: JADWAL MENGAJAR DOSEN 
+
+
+Dosen = {
+	nip:number, nama_dosen:string, asal:string, gender:string
+	234 'Aryo Utomo' Jakarta, L
+	368 'Bunga Wiryati' Surabaya P
+	838 'Cindrawati' Bogor P
+	826 'Denara Putri' Jember P
+	224 'Eko Wiarno' Surabaya L
+	112 'Eka Fitri' Surabaya P
+	923 'Fiqih Pratama' Malang L
+	902 'Ghani Suryo' Jakarta L
+	308 'Sigit Agung' Jember L
+}
+
+MataKuliah = {
+	kode_mk:string , nama_mk:string, sks:number, semester
+	SI123 'MANAJEMEN BISNIS' 3 2
+	SI629 'RISET OPERASI' 3 5
+	TC620 'DASAR PEMROGRAMAN' 4 1
+	TI927 'KEAMANAN JARINGAN' 3 1
+	SI826 'SISTEM BASIS DATA' 4 3
+	TC203 'SISTEM KOMPUTER' 3 2
+	TI293 'OPERASIONAL KEAMANAN' 3 2
+	SI102 'MANAJEMEN PROYEK' 4 4
+}
+
+Departemen ={
+	kode_dep:string nama_dep:string jenjang:string nama_kadep:string
+	SI 'Sistem Informasi' S1 'Ardhina Putri'
+	TC 'Informatika' S1 'Fadjar Alifandi'
+	TI 'Teknologi Informasi' S1 'Fikri Haykal'	
+}
+
+Jadwal={
+	nip:number thn_akademik:number smt:number sesi:number hari:string kode_mk:string
+	234 2018 3 1 Rabu SI826
+	368 2018 4 1 Senin SI102
+	902 2018 2 1 Jumat SI123
+	923 2018 1 2 Jumat TI927
+	836 2018 3 1 Kamis SI826
+	112 2018 5 1 Senin SI629
+	234 2018 2 1 Rabu TI293
+	308 2018 1 2 Selasa TC620
+	826 2018 3 1 Senin SI123
+}
